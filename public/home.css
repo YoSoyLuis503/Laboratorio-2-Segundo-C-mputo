@@ -1,11 +1,11 @@
-.fondo{
-    
-    margin: 0;
-    padding: 0;
-    background-image: url('img/fondo.jpeg'); /* Ruta de la imagen */
+body{
+    color: aliceblue;
+    background-image: url('img/fondo2.jpg');
     background-size: cover;
-
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
 
 .color-container{
     width: 16px;

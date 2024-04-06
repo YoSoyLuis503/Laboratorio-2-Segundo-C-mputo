@@ -6,23 +6,23 @@
 <div class="container mt-5">
   
 <div class="container w-25 border p-4 mt-4"> 
-  Nombre y codigo
+  Luis Antonio Barrera Zelaya codigo: SMSS010722
 </div>
 
 <div class="container w-25 border p-4 mt-4"> 
-  Nombre y codigo:
+  Carlos Eduardo Mejia Luna codigo: SMSS061022
 </div>
   
 <div class="container w-25 border p-4 mt-4"> 
-  Nombre y codigo:
+  Bryan Daniel Escobar Umanzor codigo: SMSS045722
 </div>
 
 <div class="container w-25 border p-4 mt-4"> 
-  Nombre y codigo:
+  David Esau Claros Santos codigo: SMSS052422
 </div>
 
 <div class="container w-25 border p-4 mt-4"> 
-  Nombre y codigo:
+  Jonathan Levi Carrillo Porillo codigo: SMSS019222
 </div>
 
 </div>
