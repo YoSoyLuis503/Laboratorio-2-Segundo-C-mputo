@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/nayik', function () {
+Route::get('/', function () {
     return view('home');
 });
 
