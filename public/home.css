@@ -1,0 +1,21 @@
+.fondo{
+    
+    margin: 0;
+    padding: 0;
+    background-image: url('img/fondo.jpeg'); /* Ruta de la imagen */
+    background-size: cover;
+
+}
+
+.color-container{
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    border-radius: 4px;
+}
+a{
+    
+    text-decoration: none;
+}
+
+  

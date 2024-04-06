@@ -7,7 +7,8 @@
     <title>Laboratorio-2-Segundo-Computo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('home.css') }}">
+
     
 </head>
 
@@ -57,8 +58,8 @@
     </div>
     <!-- fin del Navbar -->
     
-  
     @if (Request::is('/'))
+    <div class="fondo">
     <!-- Contenedor principal -->
     <div class="container mt-5">
         <!-- Contenido -->
@@ -69,8 +70,11 @@
         <div class="container w-25 border p-4 mt-4"> 
             Descripcion del proyecto
         </div>
-        @endif
+      </div>
     </div>
+        @endif
+    
+    
     @yield('content')
     <!-- Incluye el contenido dinámico aquí -->
 
