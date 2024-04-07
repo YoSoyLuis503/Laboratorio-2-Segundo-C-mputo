@@ -63,11 +63,27 @@
     <div class="container mt-5">
         <!-- Contenido -->
         <div class="container w-25 border p-4 mt-4"> 
-            Nombre del proyecto
+            Empleos UGB
         </div>
         
         <div class="container w-25 border p-4 mt-4"> 
-            Descripcion del proyecto
+            <p>
+              ¿Cuál es uno de los principales problemas de los estudiantes egresados de la Universidad? Para nosotros es la falta
+              de oportunidades en el mercado laboral. Muchos hemos escuchado, o conocemos casos de jovenes que terminan su carrera
+              pero que luego no son capaces de ejercer su profesión, en ocasiones hasta dentro de unos cuantos años o en casos extremos
+              tal vez nunca.
+            </p>
+
+            <p>
+              En vista de la problemática hemos decidido crear un espacio que sirva como puente entre los estudiantes de la Universidad Gerardo Barrios
+              y el mercado laboral. Los estudiantes tendrán la oportunidad de mostrar sus capacidades a posibles empleadores de su Área, y al mismo tiempo
+              los empleadores tendrán un espacio para buscar nuevos prospectos capacitados para ejercer sus labores.
+            </p>
+
+            <p> 
+            Esperamos que el proyecto alcance a cubrir todas las facultades, carreras y modalidades de la Universidad Gerardo Barrios, sin embargo, por el 
+            momento estará focalizado en la carrera de ingeniería en sistemas y su posible mercado laboral.
+            </p>
         </div>
         @endif
     </div>
