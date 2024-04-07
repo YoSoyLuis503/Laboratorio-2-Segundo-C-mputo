@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratorio-2-Segundo-Computo</title>
+    <link rel="icon" href="{{ asset('img/icon.ico') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <link rel="stylesheet" href="{{ asset('home.css') }}">
+
     
 </head>
 
@@ -57,8 +59,8 @@
     </div>
     <!-- fin del Navbar -->
     
-  
     @if (Request::is('/'))
+    <div class="fondo">
     <!-- Contenedor principal -->
     <div class="container mt-5">
         <!-- Contenido -->
@@ -85,8 +87,11 @@
             momento estará focalizado en la carrera de ingeniería en sistemas y su posible mercado laboral.
             </p>
         </div>
-        @endif
+      </div>
     </div>
+        @endif
+    
+    
     @yield('content')
     <!-- Incluye el contenido dinámico aquí -->
 
